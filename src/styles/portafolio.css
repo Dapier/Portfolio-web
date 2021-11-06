@@ -147,7 +147,7 @@
 }
 
 .header .nav-toggler.toggle-hide{
-    transform: scale();
+    transform: scale(1);
     pointer-events: none;
     transition-delay: 0s;
 }
@@ -289,6 +289,10 @@ transform: scale(1);
 .button{
     font-family: inherit;
     font-weight: inherit;
+}
+
+.btnPortfolio{
+    margin-top: 1rem;
 }
 
 .portafolioSection{
@@ -626,7 +630,7 @@ transform: scale(1);
 
 
 .pp-content{
-    max-width: 850px;
+    max-width: 65%;
     margin: 50px auto 60px;
 }
 
@@ -853,7 +857,7 @@ transform: scale(1);
 
 /*                         Responsive                  */
 @media (max-width:991px) {
-    .bg-animation-effect .col-10,
+    /* .bg-animation-effect .col-10,
     .bg-animation-effect .col-9,
     .bg-animation-effect .col-8{
         display: none;
@@ -861,22 +865,24 @@ transform: scale(1);
 
     .bg-animation-effect div{
         margin-left: calc((100% - 28px) /8);
+    } */
+    .text{
+        font-size: 1.3rem;
     }
-
     .porfolio-item{
         width: calc(50% - 30px);
     }
 
 }
 @media (max-width:767px) {
-    .bg-animation-effect .col-7,
+    /* .bg-animation-effect .col-7,
     .bg-animation-effect .col-6{
         display: none;
-    }
+    } */
 
-    .bg-animation-effect div{
+    /* .bg-animation-effect div{
         margin-left: calc((100% - 20px) /6);
-    }
+    } */
     .porfolio-item{
         width: calc(100% - 30px);
     }
@@ -899,3 +905,14 @@ transform: scale(1);
 
 
 
+/*        Apper effect          */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  .reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 0.9s cubic-bezier(0.76, 0.02, 0.62, 0.93);
+    z-index: -1;
+  }

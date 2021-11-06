@@ -1,4 +1,16 @@
-.bg-animation-effect{
+
+#canvas{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+/* .bg-animation-effect{
     position: fixed;
     left: 0;
     top: 0;
@@ -8,9 +20,9 @@
     display: flex;
     flex-wrap: wrap;
     align-content: space-evenly;
-}
+} */
 
-.bg-animation-effect div{
+/* .bg-animation-effect div{
     height: 6px;
     width: 6px;
     background-color: #587a8a;
@@ -51,4 +63,4 @@
         transition: 2s;
 
     }
-}
+} */
