@@ -8,7 +8,7 @@ import "../styles/portafolio.css";
 //images
 import example1 from "../resources/1.png";
 import example2 from "../resources/2.png";
-import example3 from "../resources/3.png";
+import calculator from "../resources/calculator.png";
 import ecommerce from "../resources/ecomerce.png";
 import api from "../resources/API.png";
 
@@ -405,7 +405,7 @@ const Home = () => {
               </h3>
               <div className="portfolio-item-details">
                 <div className="description">
-                  <p>Project from course</p>
+                  <p>Project from  HTML, CSS and JS udemy course</p>
                 </div>
 
                 <div className="general-info">
@@ -444,12 +444,7 @@ const Home = () => {
               <div className="portfolio-item-details">
                 <div className="description">
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
-                    minima aliquam vel distinctio saepe autem iure alias
-                    quisquam deserunt repudiandae molestias dolor quos labore
-                    fuga, doloribus veniam itaque. Aliquam voluptates
-                    perferendis sed officia amet ipsa doloribus nostrum dolore
-                    eos neque.
+                  Landing page for an event from UANL faculty.
                   </p>
                 </div>
 
@@ -532,9 +527,9 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="porfolio-item" data-category="front-end, landing">
+            <div className="porfolio-item" data-category="back-end,frontend">
               <div className="portfolio-item-thumbnail">
-                <img src={example3} alt="Calculator js" />
+                <img src={calculator} alt="Calculator js" />
                 <button type="button" className="btn more-info-btn">
                   Check it out!
                 </button>
@@ -543,33 +538,39 @@ const Home = () => {
               <div className="portfolio-item-details">
                 <div className="description">
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
-                    minima aliquam vel distinctio saepe autem iure alias
-                    quisquam deserunt repudiandae molestias dolor quos labore
-                    fuga, doloribus veniam itaque. Aliquam voluptates
-                    perferendis sed officia amet ipsa doloribus nostrum dolore
-                    eos neque.
+                  The calculator using Event Delegation and react hooks
                   </p>
                 </div>
 
                 <div className="general-info">
                   <p>
-                    Created - <span>September 2021</span>
+                    Created - <span>November 2021</span>
                   </p>
                   <p>
-                    Technologies Used - <span>HTML5, Css3, Javascript</span>
+                    Technologies Used - <span>React hooks</span>
                   </p>
                   <p>
                     Role - <span>Back-end</span>
                   </p>
                   <p>
+                    Repo -{" "}
+                    <span>
+                      <a
+                        href="https://github.com/Dapier/Calculator-EvDe"
+                        rel="noopener noreferrer"
+                      >
+                        See repository
+                      </a>
+                    </span>
+                  </p>
+                  <p>
                     You can visit this site in -{" "}
                     <span>
                       <a
-                        href="https://dapier.github.io/calculatorEvDe/"
+                        href="https://calculator-evde.netlify.app/"
                         rel="noopener noreferrer"
                       >
-                        Calculator Js
+                        Calculator EvDe
                       </a>
                     </span>
                   </p>
@@ -723,7 +724,7 @@ const Home = () => {
                   Next <BiRightArrow />
                 </button>
                 <h3></h3>
-                <img src={example3} alt="next work thumbnail" />
+                <img src={calculator} alt="next work thumbnail" />
               </div>
             </div>
           </div>
